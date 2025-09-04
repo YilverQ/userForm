@@ -1,0 +1,14 @@
+.header{
+	display: flex;
+	justify-content: center;
+	background: var(--primary-color);
+}
+.header h2{
+	text-align: center;
+	color: var(--light);
+	font-family: 'ABeeZee', sans-serif;
+	padding: 10px 0;
+	display: flex;
+	text-align: center;
+	gap: 10px;
+}

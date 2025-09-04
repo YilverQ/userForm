@@ -1,0 +1,115 @@
+body{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+.formCentered{
+	background: var(--light);
+	box-shadow: var(--box-shadow);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	min-height: 50vh;
+	max-width: 900px;
+	margin: auto;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.boxCentered{
+	background: var(--light);
+	box-shadow: var(--box-shadow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	min-height: 50vh;
+	max-width: 900px;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.titleCenter{
+	text-align: center;
+	width: 100%;
+}
+
+.boxCentered__img img{
+	max-width: 400px;
+	border-radius: 5px;
+}
+.boxCentered__links{
+	display: flex;
+	flex-flow: column;
+	gap: 20px;
+}
+.boxCentered__button{
+	width: 200px;
+	background: var(--primary-color);
+	color: var(--light);
+	padding: 15px;
+	border-radius: var(--boder-radius-normal);
+	box-shadow: var(--box-shadow);
+	display: flex;
+	gap: 5px;
+	transition: all .5s;
+}
+.boxCentered__button:hover{
+	background: var(--dark-primary-color);
+	transition: var(--transition-all);
+}
+
+.boxInput{
+	display: flex;
+	flex-flow: column;
+}
+.messageInput{
+	font-size: 14px;
+}
+
+.input{
+	width: 300px;
+	padding: 5px;
+	border-radius: var(--boder-radius-small);
+	border: 1px solid rgba(99, 99, 99, 0.2);
+	background: #fff;
+}
+.formInputs{
+	display: flex;
+	flex-flow: column;
+	gap: 20px;
+}
+.boxTwo{
+	display: flex;
+	gap: 20px;
+}
+.boxWallSignup{
+	border-radius: var(--boder-radius-normal);
+	width: 500px;
+	height: 730px;
+	background: url("../img/wall-vertical.jpg");
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+}
+.boxWallSignup--imgMody{
+	height: 200px;
+	background: url("../img/wall-loginInside.jpg");
+}
+.buttonSend{
+	background: var(--primary-color);
+	color: var(--light);
+	padding: 10px;
+	border-radius: var(--boder-radius-normal);
+	box-shadow: var(--box-shadow);
+	transition: all .5s;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.buttonSend:hover{
+	background: var(--dark-primary-color);
+	transition: var(--transition-all);
+}

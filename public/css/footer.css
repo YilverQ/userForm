@@ -1,0 +1,11 @@
+.footer{
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	gap: 20px;
+}
+.footer_link{
+	font-size: 10px;
+	color: #afafaf;
+}
